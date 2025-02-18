@@ -30,3 +30,11 @@ Before you start, you will need to have the following installed:
    First, clone the repository to your local machine:
    ```bash
    git clone https://github.com/Manishkip/Task-Management-System
+
+
+### Login Page
+![image](https://github.com/user-attachments/assets/1521a914-f08f-4db5-b2fe-5afb8d8f8143)
+
+### Register Page
+![image](https://github.com/user-attachments/assets/662e8da3-631b-4835-ba6b-4569dce9031f)
+
