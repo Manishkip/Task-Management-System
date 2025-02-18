@@ -15,3 +15,18 @@ This is a Task Management System built with **Spring Boot** and a **MySQL** data
 - **MySQL**: Database for storing task information
 - **Postman**: Used for API testing
 - **IntelliJ IDEA**: IDE used for development
+
+## Getting Started
+
+### Prerequisites
+Before you start, you will need to have the following installed:
+- **Java 11** or later
+- **MySQL** database
+- **Maven** or **Gradle** for dependency management
+
+### Setup
+
+1. **Clone the Repository:**
+   First, clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/task-management-system.git
