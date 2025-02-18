@@ -4,19 +4,29 @@ import com.tms.model.Task;
 import com.tms.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
 
-@RestController
+@Controller
 public class TaskController {
     @Autowired
     TaskService taskService;
 
-    @GetMapping("/tms")
-    public String hello(){
-        return "Task Management System";
+    @GetMapping("/login")
+    public String loginPage() {
+        return "login";
+    }
+
+    @GetMapping("/register")
+    public String registerPage() {
+        return "register";
+    }
+    @GetMapping("/dashboard")
+    public String dashboardPage() {
+        return "dashboard";
     }
 
     //POST /tasks: Create a new task (title, description, status, assigned user).
